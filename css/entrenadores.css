@@ -1,0 +1,19 @@
+.section-info{
+    position: relative;
+    margin-bottom: 50px;
+}
+
+
+.container-info{
+    width: 100%;
+}
+
+.container-info img {
+    width: 30%;
+    float: left;
+    margin: 10px 20px 0 10px;
+}
+
+.container-info p{
+    margin-left: 10px;
+}

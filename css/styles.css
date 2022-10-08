@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Mono:ital,wght@0,200;0,300;0,400;0,500;0,600;1,100;1,400;1,500&display=swap');
+
+:root{
+  --gris: #E0DFF2;
+  --azul-intenso: #1B365C;
+  --azul-medio: #2C7BBF;
+  --azul-claro: #79D0F2;
+  --verde-azulado: #376374;
+  --verde-intenso: #80A66F;
+  --verde-claro: #ADD96A;
+  --amarillo: #F2B705;
+}
+
+*{
+  font-family: 'Roboto Mono';
+  font-size: 16px;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url(../img/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-attachment: fixed;
+}
+
+main{
+  padding-top: 90px;
+}
+
+h1{
+  font-family: 'Bangers';
+  font-size: calc(1em + 1.2vw);
+  letter-spacing: 0.1em;
+  text-align: center;
+  font-weight: 100;
+  color: var(--amarillo);
+  text-shadow: 1px 1px 2px var(--azul-intenso);
+  padding-bottom: 20px;
+}
+
+h2{
+  text-align: center;
+  font-family: 'Bebas Neue';
+  font-size: calc(0.7em + 1vw);
+  color: var(--azul-medio);
+  text-shadow: 0.5px 0.5px 0px var(--azul-intenso);
+}
+
+h3{
+  text-align: center;
+  font-family: 'Bebas Neue';
+  font-size: calc(0.5em + 1vw);
+  color: var(--azul-intenso);
+  text-shadow: 0.4px 0.4px 0px var(--azul-intenso);
+}
+
+p{
+  padding: 5px 20px;
+  color: var(--verde-azulado);
+  letter-spacing: normal;
+  font-size: calc(0.5em + 0.5vw);
+  text-align: justify;
+}
+
+.container-main{
+  background-color: rgb(255, 255, 255, 40%);
+  margin: 0 10px 10px 10px;
+  padding: 20px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
