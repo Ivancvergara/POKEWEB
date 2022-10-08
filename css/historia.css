@@ -1,6 +1,8 @@
 .section-info{
     position: relative;
     margin-bottom: 50px;
+
+    contain: content;
 }
 
 
@@ -9,25 +11,19 @@
 }
 
 .container-info img {
-    width: 30%;
+    max-width: 30vw;
     float: right;
-    margin: 10px 20px 0 10px;
+    margin: 10px 20px 0px 10px;
 }
 
-.container-info p{
-    margin-left: 10px;
-}
 
 .container-la-serie{
     width: 100%;
+    contain: content;
 }
 
 .container-la-serie img {
-    width: 15%;
+    width: 15vw;
     float: left;
-    margin: 10px 10px 0 10px;
-}
-
-.container-la-serie p{
-    margin-left: 10px;
+    margin: 10px 10px 0px 20px;
 }
