@@ -121,9 +121,9 @@ header.abajo nav a:hover{
   .menu nav{
     position: fixed;
     top: 0;
-    left: -250px;
+    left: -200px;
     background-color: var(--azul-medio);
-    width: 250px;
+    width: 200px;
     height: 100vh;
     padding: inherit;
     z-index: 1;
