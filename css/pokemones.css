@@ -206,10 +206,6 @@
 
 /* Responsive */
 
-@media screen and (min-width: 1024px) {
-
-}
-
 /* Smarthphone */
 @media screen and (max-width: 767px) {
     .container-main{
@@ -225,7 +221,7 @@
     }
 
     .panel {
-        max-width: 80vw;
+        max-width: 90vw;
         height: 15vh;
         border-radius: 10px;
         flex: 1;
@@ -233,17 +229,17 @@
     }
 
     .panel h3 {
-        left: 13vw;
-        bottom: 6vh;
+        left: 50px;
+        bottom: 22px;
     }
 
     .panel .type{
-        width: 55vw;
+        width: 80vw;
     }
 
     .panel.active {
         flex: 1;
-        height: 35vh;
+        height: 30vh;
     }
 
     .panel img{
