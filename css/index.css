@@ -55,3 +55,28 @@ p{
     100%{margin-left: -300%;}
 
 }
+
+/* Responsive */
+
+@media screen and (min-width: 1024px) {
+
+}
+  
+/* Smarthphone */
+@media screen and (max-width: 767px) {
+    main{
+        height: 200px;
+        display: relative;
+        margin: auto;
+    }
+    .texto-bienvenida{
+        /* margin-top: -100px; */
+        position: absolute;
+        top: 25%;
+    }
+}
+  
+/* Tablet */
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+    
+}
