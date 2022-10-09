@@ -54,7 +54,7 @@
     width: 80vw;
     margin: auto;
 }
-  
+
 .panel {
     background-size: cover;
     background-position: center;
@@ -88,7 +88,7 @@
     background-color: white;
     border-radius: 50%;
     left: 25%;
-    transition:ease-out 1s;
+    transition: ease-out 1s;
 }
 
 .panel.active img{
@@ -148,7 +148,7 @@
     color: var(--ice)
 }
 
-.panel .luchador{
+.panel .lucha{
     color: var(--fighting)
 }
 
@@ -194,13 +194,78 @@
 }
 
 @media (max-width: 480px) {
-    .container {
+    /* .container {
         width: 100vw;
     }
 
     .panel:nth-of-type(4),
     .panel:nth-of-type(5) {
         display: none;
+    } */
+}
+
+/* Responsive */
+
+@media screen and (min-width: 1024px) {
+
+}
+
+/* Smarthphone */
+@media screen and (max-width: 767px) {
+    .container-main{
+        max-width: 767px;
     }
+    .container-types{
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        width: 100vw;
+        flex-direction: row;
+    }
+
+    .panel {
+        max-width: 80vw;
+        height: 15vh;
+        border-radius: 10px;
+        flex: 1;
+        margin: 3px auto;
+    }
+
+    .panel h3 {
+        left: 13vw;
+        bottom: 6vh;
+    }
+
+    .panel .type{
+        width: 55vw;
+    }
+
+    .panel.active {
+        flex: 1;
+        height: 35vh;
+    }
+
+    .panel img{
+        width: 30px;
+        bottom: 25%;
+        left: 5%;
+    }
+    
+    .panel.active img{
+        left: 5%;
+        bottom: 5%;
+        z-index: 2;
+    }
+    .panel.active::after{
+        background: linear-gradient(to top, rgba(0,0,0,0.45)60%,rgba(0,0,0,0) 100%);
+        border-radius: 10px;
+        z-index: 1;
+    }
+}
+
+/* Tablet */
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+
 }
 
