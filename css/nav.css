@@ -84,14 +84,14 @@ header.abajo nav a:hover{
 
 .nav a{
   font-family: 'Bebas Neue';
-  font-size: calc(0.5em + 0.7vw);
+  font-size: calc(0.5em + 0.5vw);
   text-decoration: none;
   color: var(--verde-azulado);
   text-shadow: 0.5px 0.2px 0px rgb(48, 48, 48);
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 2px;
-  margin: 0 3%;
+  margin: auto 20px;
 }
 
 .nav a:hover{
@@ -107,13 +107,15 @@ header.abajo nav a:hover{
 
 
 /* Responsive */
-@media screen and (max-width: 1200px) {
+
+@media screen and (min-width: 1024px) {
   header{
     padding: 40px;
   }
 }
 
-@media screen and (max-width: 720px) {
+/* Smarthphone */
+@media screen and (max-width: 767px) {
   main{
     padding-top: 40px;
   }
@@ -217,3 +219,10 @@ header.abajo nav a:hover{
   }
 }
 
+/* Tablet */
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+  .nav a{
+    font-size: calc(0.5em + 0.5vw);
+    margin: 0 10px;
+  }
+}
