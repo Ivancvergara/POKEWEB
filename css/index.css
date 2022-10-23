@@ -61,17 +61,26 @@ p{
 /* Responsive */
 
 @media screen and (min-width: 1024px) {
+    body{
+        height: 100vh;
+    }
 
+    main{
+        height: 80vh;
+        display: relative;
+        margin: auto;
+    }
 }
   
 /* Smarthphone */
 @media screen and (max-width: 767px) {
     body{
         height: 100vh;
+        max-height: 100vh;
     }
     
     main{
-        height: 75vh;
+        height: 80vh;
         display: relative;
         margin: auto;
     }

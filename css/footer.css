@@ -104,19 +104,22 @@ footer{
     }
 
     footer{
-        height: 34vh;
+        height: 200px;
         margin-bottom: 0;
         padding-bottom: 0;
     }
     
     .box-footer{
-        height: 26vh;
+        margin: 0;
+        padding: 0;
+        height: 150px;
         text-align: start;
+        justify-content: start;
     }
 
     .box-footer .contenido{
-        padding-left: 4vw;
-        height: 26vh;
+        padding-left: 10px;
+        height: 200px;
         flex-wrap: nowrap;
     }
 
@@ -130,7 +133,7 @@ footer{
     }
     
     .box-footer h2{
-        margin: 10px 0 5px 0;
+        margin: 10px 0 10px 0;
         font-size: 0.8em;
         color: var(--amarillo);
         opacity: 0.8;
@@ -138,7 +141,7 @@ footer{
     }
     
     .box-footer a{
-        margin-bottom: 5px;
+        margin-bottom: 6px;
         font-size: 0.5em;
         font-weight: 300;
     }
@@ -149,8 +152,9 @@ footer{
     }
 
     .box-copyright{
-        display: inherit;
-        margin: 46px auto 0px auto;
+        display: flex;
+        margin: 50px auto 0px auto;
+        text-align: end;
         align-items: center;
     }
     
