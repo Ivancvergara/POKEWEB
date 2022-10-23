@@ -33,7 +33,7 @@ body{
   position: fixed;
   left: 0;
   top: 0;
-  z-index: 1;
+  z-index: 3;
   transition: 0.7s;
 }
 
@@ -104,14 +104,16 @@ header.abajo nav a:hover{
   background-position: bottom;
 }
 
+#checkbox{
+  display: none;
+}
+
 
 
 /* Responsive */
 
 @media screen and (min-width: 1024px) {
-  header{
-    padding: 40px;
-  }
+  
 }
 
 /* Smarthphone */
@@ -127,9 +129,9 @@ header.abajo nav a:hover{
     background-color: var(--azul-medio);
     width: 200px;
     height: 100vh;
+    max-height: 100vh;
     padding: inherit;
     z-index: 1;
-
     transition: all 400ms;
   }
 
@@ -142,12 +144,8 @@ header.abajo nav a:hover{
 
   .nav a:hover{
     color: var(--amarillo);
-    text-shadow: 1px 1px 1px var(--azul-intenso);
     padding: inherit;
-    background-image: none;
-    background-size: inherit;
-    background-repeat: inherit;
-    background-position: inherit;
+    background-image: inherit;
   }
 
   .menu nav img{
@@ -187,10 +185,6 @@ header.abajo nav a:hover{
     width: 20px;
     position: relative;
     right: 6vw;
-  }
-
-  #checkbox{
-    display: none;
   }
 
   .hamburguer{
@@ -239,29 +233,28 @@ header.abajo nav a:hover{
   .line-split::after{
     transform: translateX(10px);
   }
-
-  /* #checkbox:checked~.line-main::before{
-    transform: rotate(45deg);
-  }
-
-  #checkbox:checked~.line-main::after{
-    transform: rotate(-45deg);
-  }
-
-  #checkbox:checked~.line-split::before{
-    transform: translateX(-10px);
-    opacity: 0;
-  }
-
-  #checkbox:checked~.line-split::after{
-    transform: translateX(20px);
-    opacity: 0;
-  } */
   
 }
 
 /* Tablet */
 @media screen and (min-width: 767px) and (max-width: 1023px) {
+  header.abajo{
+    background: none;
+    border-radius: none;
+    box-shadow: none;
+  }
+
+  .background.back-menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0,0,0,0.5);
+    display: block;
+    z-index: 1;
+  }
+
   .nav a{
     font-size: calc(0.5em + 0.5vw);
     margin: 0 10px;

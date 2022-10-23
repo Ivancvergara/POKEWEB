@@ -42,14 +42,10 @@
     position: relative;
 }
 
-.container-types{
-    position: relative;
-
-}
-
 /* Tipos de Pokemon */
 
 .container-types {
+    position: relative;
     display: flex;
     width: 80vw;
     margin: auto;
@@ -87,7 +83,7 @@
     bottom: 5px;
     background-color: white;
     border-radius: 50%;
-    left: 25%;
+    left: 30%;
     transition: ease-out 1s;
 }
 
@@ -107,7 +103,7 @@
     margin: 0;
     font-family: monospace;
     bottom: 20px;
-    left: 60px;
+    left: 70px;
     text-shadow: #e0e0e0 1px 1px 0;
     z-index: 2;
 }
@@ -193,30 +189,15 @@
     transition: opacity 0.3s ease-in 0.4s;
 }
 
-@media (max-width: 480px) {
-    /* .container {
-        width: 100vw;
-    }
-
-    .panel:nth-of-type(4),
-    .panel:nth-of-type(5) {
-        display: none;
-    } */
-}
-
 /* Responsive */
 
 /* Smarthphone */
 @media screen and (max-width: 767px) {
-    .container-main{
-        max-width: 767px;
-    }
     .container-types{
-        margin: 0;
+        margin: auto; 
         display: flex;
         flex-wrap: wrap;
-        justify-content: flex-start;
-        width: 100vw;
+        max-width: 90vw;
         flex-direction: row;
     }
 
