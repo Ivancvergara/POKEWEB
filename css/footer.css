@@ -2,7 +2,6 @@
 
 footer{
     position: relative;
-    bottom: 0;
     width: 100vw;
     height: 140px;
     padding: 0px;
@@ -99,11 +98,13 @@ footer{
   /* Smarthphone */
 @media screen and (max-width: 767px) {
     body{
-        margin-bottom: 0;
+        margin-bottom: 60px;
         padding-bottom: 0;
     }
 
     footer{
+        position: absolute;
+        bottom: 0;
         height: 200px;
         margin-bottom: 0;
         padding-bottom: 0;

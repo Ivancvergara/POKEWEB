@@ -1,5 +1,6 @@
 main{
     height: fit-content;
+    max-height: 100vh;
     margin-bottom: 60px;
 }
 
@@ -10,6 +11,7 @@ h1{
 input {
     text-align: center;
     width: 25vw;
+    max-width: 300px;
     padding: 10px;
     margin: 10px auto 0 auto;
     border: none;
@@ -117,12 +119,23 @@ input {
 
 @media screen and (max-width: 767px) {
     body{
+        height: 100vh;
+        max-height: 100vh;
         margin-bottom: 0;
         padding-bottom: 0;
     }
+
+    main{
+        height: fit-content;
+        max-height: inherit;
+        position: relative;
+        height: fit-content;
+        margin: 0 0 100px 0;
+        padding: 0;
+    }
     
     input {
-        width: 55vh;
+        width: 50vh;
         padding: 5px;
         font-size: 0.8em;
     }
@@ -148,7 +161,8 @@ input {
         position: relative;
         height: fit-content;
         max-width: 300px;
-        max-height: 80vh;
+        height: 300px;
+        max-height: 60vh;
         border-radius: 4px;
         color: #000;
         text-align: center;

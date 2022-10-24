@@ -61,15 +61,7 @@ p{
 /* Responsive */
 
 @media screen and (min-width: 1024px) {
-    body{
-        height: 100vh;
-    }
 
-    main{
-        height: 80vh;
-        display: relative;
-        margin: auto;
-    }
 }
   
 /* Smarthphone */
