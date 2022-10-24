@@ -1,7 +1,7 @@
 main{
     height: fit-content;
     max-height: 100vh;
-    margin-bottom: 60px;
+    margin-bottom: 0px;
 }
 
 h1{
@@ -121,7 +121,7 @@ input {
     body{
         height: 100vh;
         max-height: 100vh;
-        margin-bottom: 0;
+        margin-bottom: 60px;
         padding-bottom: 0;
     }
 
@@ -129,8 +129,7 @@ input {
         height: fit-content;
         max-height: inherit;
         position: relative;
-        height: fit-content;
-        margin: 0 0 100px 0;
+        margin: 0 0 150px 0;
         padding: 0;
     }
     
@@ -161,7 +160,6 @@ input {
         position: relative;
         height: fit-content;
         max-width: 300px;
-        height: 300px;
         max-height: 60vh;
         border-radius: 4px;
         color: #000;
@@ -229,6 +227,13 @@ input {
       
     .poke-img {
         width: calc(9em + 1vw);
+    }
+
+    footer{
+        position: absolute;
+        bottom: 0;
+        margin: 0;
+        padding: 0;
     }
     
 }
